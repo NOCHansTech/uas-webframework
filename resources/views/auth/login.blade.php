@@ -53,9 +53,15 @@
                                             aria-describedby="username">
                                     </div>
                                     <div class="mb-4">
-                                        <label for="password" class="form-label">Password</label>
-                                        <input type="password" class="form-control" name="password" id="password">
-                                    </div>
+                                        <div class="mb-4">
+                                            <div class="label-btn" style="display: flex; justify-content: space-between; align-items: center;">
+                                                <label for="password" class="form-label">Password</label>
+                                                <button type="button" class="btn" id="togglePassword">
+                                                    <iconify-icon icon="ic:baseline-visibility-off"></iconify-icon>
+                                                </button>
+                                            </div>
+                                            <input type="password" class="form-control" name="password" id="password">
+                                        </div>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="form-check">
                                             <input class="form-check-input primary" type="checkbox" value=""
