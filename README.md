@@ -12,6 +12,18 @@ Web ShortLink merupakan sebuah aplikasi penyingkat URL berbasis web yang dibangu
   - Membuat, mengedit, dan menghapus shortlink milik user sendiri.
 - *Keamanan*: Validasi yang memastikan hanya pengguna berhak yang dapat mengakses fitur sesuai peran masing-masing.
 
+## 📋 Demo Website
+
+- **Link Demo**: [web.labhans.com](https://web.labhans.com/)
+
+- *Login Admin*:
+  - *Username*: admin
+  - *Password*: adminpassword
+
+- *Login User*:
+  - *Username*: user
+  - *Password*: password
+
 ## 👥 Anggota Kelompok
 - 🧑‍💻 Farhan Adiaswara (2230511003)
 - 🧑‍💻 Dani Akhmad Maulana (2230511007)
