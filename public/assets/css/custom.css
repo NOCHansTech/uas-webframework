@@ -1,0 +1,108 @@
+.custom-container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.custom-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.custom-short-link {
+    font-size: 18px;
+    color: #279dec;
+    margin-bottom: 8px;
+}
+.custom-full-link {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 16px;
+    word-wrap: break-word;
+}
+.custom-date-time {
+    font-size: 12px;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+}
+.custom-date-time iconify-icon {
+    margin-right: 8px;
+}
+.custom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.custom-button {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 8px 10px;
+    font-size: 13px;
+    color: #6c757d;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    margin: 0 4px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.custom-button iconify-icon {
+    margin-right: 8px;
+}
+.custom-button-primary {
+    background-color: #0f82fc;
+    color: #ffffff;
+    border: none;
+}
+.custom-button-danger {
+    background-color: #fc5886;
+    color: #ffffff;
+    border: none;
+}
+.custom-button-primary iconify-icon {
+    color: #ffffff;
+}
+
+.custom-edit-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: #1e8bff;
+    border: 1px solid #81b3e8;
+    border-radius: 18px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #ffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.custom-edit-button iconify-icon {
+    margin-right: 8px;
+}
+@media (max-width: 600px) {
+    .custom-buttons {
+        flex-direction: column;
+    }
+    .custom-button {
+        margin: 4px 0;
+    }
+    .custom-short-link {
+        font-size: 15px;
+        color: #3ba1e5;
+        margin-bottom: 6px;
+    }
+}
