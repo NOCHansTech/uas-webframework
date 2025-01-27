@@ -93,6 +93,19 @@
     <script src="{{ asset('assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
     <!-- solar icons -->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <script>
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            const passwordInput = document.getElementById('password');
+            const icon = this.querySelector('iconify-icon');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                icon.setAttribute('icon', 'ic:baseline-visibility');
+            } else {
+                passwordInput.type = 'password';
+                icon.setAttribute('icon', 'ic:baseline-visibility-off');
+            }
+        });
+    </script>
 </body>
 
 </html>
